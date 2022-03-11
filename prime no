@@ -1,0 +1,12 @@
+a=int(input("enter a number: "))
+if (a <= 2):
+   print ("{} is a prime number".format(a))
+elif (a!=2 and a % 2 == 0):
+    print ("{} is a prime number".format(a))
+else:
+    print ("{} is not a prime number".format(a))
+   
+   
+ output
+ enter a number: 4
+4 is a prime number
